@@ -1,7 +1,8 @@
 {
-  "name": "kubevirt",
-  "version": "v0.0.1-beta7",
-  "description": "A plugin for managing KubeVirt virtual machines within a Kubernetes cluster.",
+  "name": "@headlamp-k8s/argocd",
+  "version": "0.1.0-alpha",
+  "description": "Headlamp plugin for Argo CD GitOps Application Management",
+  "author": "Joshna Waikar",
   "scripts": {
     "start": "headlamp-plugin start",
     "build": "headlamp-plugin build",
@@ -12,7 +13,8 @@
     "tsc": "headlamp-plugin tsc",
     "storybook": "headlamp-plugin storybook",
     "storybook-build": "headlamp-plugin storybook-build",
-    "test": "headlamp-plugin test"
+    "test": "headlamp-plugin test",
+    "i18n": "headlamp-plugin i18n"
   },
   "keywords": [
     "headlamp",
@@ -20,8 +22,7 @@
     "kubernetes",
     "kubernetes-ui",
     "kubernetes-debugging",
-    "plugins",
-    "kubevirt"
+    "plugins"
   ],
   "prettier": "@headlamp-k8s/eslint-config/prettier-config",
   "eslintConfig": {
@@ -35,6 +36,6 @@
     "typescript": "5.6.2"
   },
   "devDependencies": {
-    "@kinvolk/headlamp-plugin": "^0.12.0"
+    "@kinvolk/headlamp-plugin": "^0.14.0"
   }
 }
